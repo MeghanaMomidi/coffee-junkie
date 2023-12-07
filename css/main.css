@@ -189,7 +189,7 @@ body{
     left:0;
     height:100%;
     width:10rem;
-    background:rgba(242,180,80,0.9);
+    background:rgba(242,180,80,0.8);
     z-index:3;
     transition:all 0.3s ease-in-out;
 }
