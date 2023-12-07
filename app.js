@@ -12,7 +12,7 @@ function eventListeners(){
     //navBTN
     document.querySelector('.navBtn').addEventListener('click',function(){
        ui.showNav();
-    })
+    }) 
     //videoControls
     document.querySelector('.video_switch').addEventListener('click',function(){
         ui.videoControls();

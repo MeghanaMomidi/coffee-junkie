@@ -126,12 +126,13 @@ body{
     border:0.1rem solid var(--black);
     border-radius:50%;
     padding:0.25rem;
-    transition:all 0.5s linear;
+    transition:all 0.3s linear;
 
 }
 .banner_social-icons:hover{
     color:var(--black);
-    background:var(--brightYellow);
+    /* background:var(--brightYellow); */
+    transform:scale(1.2);
 }
 .banner_icons{
     width:50%;
@@ -174,7 +175,7 @@ body{
         transform:scale(1);
     }
     50%{
-        transform:scale(1.5);
+        transform:scale(1.25);
     }
     100%{
         transform:scale(1);
